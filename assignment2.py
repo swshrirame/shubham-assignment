@@ -1,9 +1,3 @@
-def get_ascii(val):
-    if ord(val) > 32 & ord(val) < 127:
-        return ord(val)
-    else:
-        return 83
-
 def process_string(s):
     ascii_values = [ord(char) for char in s]
     modified_chars = [False] * len(ascii_values)
